@@ -1,0 +1,42 @@
+# Virtual Environment
+.venv/
+venv/
+ENV/
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# Model checkpoints and data
+*.pt
+checkpoints/
+data/
+logs/
+
+# IDE specific files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS specific files
+.DS_Store
+Thumbs.db
+
+# Project specific
+sample_evaluation_results/
+evaluation_results/
+AffectNet/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Local development settings
+*.env
+.env.local
